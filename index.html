@@ -24,8 +24,148 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h1> Agenda </h1>
+					<section>
+						<h3> Recos and A/Bs </h3>
+						<ol>
+							<li>Top Viewed in Brand/Category</li>
+							<li>Adding Marketplace items for custom attach widgets</li>
+						</ol>
+					</section>
+					<hr/>
+
+					<section>
+						<h3> Enablement </h3>
+						<ol>
+							<li>A/B setup on Mdot with React</li>
+							<li>Category/Breadcrumb tracking on Mdot</li>
+							<li>Data stitching with AAM on Checkout pages</li>
+						</ol>
+					</section>
+				</section>
+
+				<section>
+					<h2 style="float:left; border-bottom: 1px solid white;"> Recos and A/B Tests</h2>
+
+					<section>
+						<h3> Hub recos: Brand/Category </h3>
+
+						<p><a href="https://www.bestbuy.ca/en-ca/category/tv-home-theatre/20003.aspx?&at_preview_token=ffZV9JXJ%2B3mAzhXPmp%2BoOxzOer%2B0cSX1b2KSWD9f5hE%3D&at_preview_index=1_2&at_preview_listed_activities_only=true&at_preview_evaluate_as_true_audience_ids=2282724&adobeQA=amanda">Brand Demo Link</a></p>
+
+						<p><a href="https://www.bestbuy.ca/en-ca/category/computers-tablets/20001.aspx?at_preview_token=ffZV9JXJ%2B3mAzhXPmp%2BoO8ebRZwdOCha5sFxGikLfSU%3D&at_preview_index=1_2&at_preview_listed_activities_only=true&at_preview_evaluate_as_true_audience_ids=2221049&adobeQA=amanda">Category Demo Link</a></p>
+
+					</section>
+
+					<section>
+						<h3> Key Implications </h3>
+
+						<ul>
+							<li>Gives business flexibility to tweak hub widgets</li>
+							<li>
+								Examples
+								<ul>
+									<li> Video games + Nintendo event = only recommend Nintendo games </li>
+									<li> Apple event + Computers & Tablets = only recommend Macbooks </li>
+								</ul>
+							</li>
+							<li>
+								Brand enablement -> brand store recos
+							</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3> Marketplace items in category widgets </h3>
+
+						<p><a href="https://www.bestbuy.ca/en-ca/category/playstation/621715.aspx?&NVID=shop;Video%20Games%2C%20Movies%20%26%20TV%20Shows;Playstation%20;lnk;c1;r4;en">Link here</a></p>
+					</section>
+
+					<section>
+						<h3> Key Learning </h3>
+
+						<ul>
+							<li>Reco algorithm has logic to boost on sale items, let's be mindful of MP</li>
+							<li>Issue is resolvable through boost lists, tweaking weighting logic, adding more aglorithms in sequence criteria to fill more slots</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h3 style="float:left; border-bottom: 1px solid white;"> Enablement </h3>
+
+					<section>
+						<h3> A/B testing on Mdot</h3>
+					</section>
+
+					<section>
+						<p> In Progress </p>
+						<img height="300" src="https://media.giphy.com/media/3o8doZFy4iPd8VBL8I/giphy.gif"/>
+					</section>
+
+					<section>
+						<h4> Category/Breadcrumb tracking on Mdot</h4>
+
+						<img style="max-height: 50vh;" src="img/category.png"/>
+					</section>
+
+					<section>
+						<h4> Category/Breadcrumb tracking on Mdot</h4>
+
+						<ul>
+							<li>Your fav evars 2-7, evar117, L2-L6 are now available</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3> First meeting with biz on data tracking </h3>
+					</section>
+
+					<section>
+						<h4> Success! Thank you Nicki for hosting </h4>
+						<img height="300" src="img/SuccessKid.jpg">
+					</section>
+
+					<section>
+						<h3> Key Learnings </h3>
+
+						<ul>
+							<li>Pain points and major wants (vendor type on mdot)</li>
+							<li>Lots of topics for Analytics Jam (unspecified?? how do I see x??)</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3> Data to AAM </h3>
+					</section>
+
+					<section>
+						<h3> Data to AAM </h3>
+
+						<ul> 
+							<li>Checkout data are now sending to AAM</li>
+							<li>Enables marketing to start building traits on customers who have purchased items >$x</li>
+							<li>Category/Brand purchase info is coming!</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h3> Team Changes </h3>
+
+					<section>
+						<p>Mandeep (Audience Manager) and Yana (Adobe Analytics) will join glass room with Jorge's team for a sprint</p>
+					</section>
+
+					<section>
+						<p>I will sit with APEX to implement/improve data tracking for new Mdot site</p>
+						<div class="tenor-gif-embed" data-postid="5790266" data-share-method="host" data-height="300" data-aspect-ratio="1.3387096774193548"><a href="https://tenor.com/view/squirtle-squad-pokemon-goals-deal-with-it-gif-5790266">Squirtle Squad GIF</a> from <a href="https://tenor.com/search/squirtle-gifs">Squirtle GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+					</section>
+				</section>
+
+				<section>
+					<h3> Questions? </h3>
+				</section>
 			</div>
 		</div>
 
@@ -42,7 +182,9 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
+				],
+				minScale: 0.2,
+				maxScale: 0.9
 			});
 		</script>
 	</body>
